@@ -3,8 +3,8 @@
 import random
 
 choices = [("coffee", 0.6), ("tea", 0.3), ("juice", 0.1)] # we create a list of pairs (tuples)
-words   = [w for (w, p) in choices] # list comprehension - pulls out all the word values
-weights = [p for (w, p) in choices] # list comprehension - pulls out all the number values
+words   = [w for (w, p) in choices] # [coffee, tea, juice] list comprehension - pulls out all the word values
+weights = [p for (w, p) in choices] # [0.6, 0.3, 0.1] list comprehension - pulls out all the number values
 
 def next_word_naive():
     # Picks any option with equal chance.
@@ -17,4 +17,13 @@ def next_word_weighted():
 
 print("Naive pick:", next_word_naive())
 print("Weighted pick:", next_word_weighted())
-
+print("Weighted pick:", next_word_weighted())
+print("Weighted pick:", next_word_weighted())
+print("Weighted pick:", next_word_weighted())
+print("Weighted pick:", next_word_weighted())
+print("Weighted pick:", next_word_weighted())
+print("Weighted pick:", next_word_weighted())
+print("Weighted pick:", next_word_weighted())
+print("Weighted pick:", next_word_weighted())
+print("Weighted pick:", next_word_weighted())
+print("Weighted pick:", next_word_weighted())
